@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     public Text killText;
     public Text scoreWarningText;
     public Text killWarningText;
+    public TextMeshProUGUI moneyText;
     public TextMeshProUGUI specialText;
     
     [Header("Gauges")]
@@ -21,8 +22,9 @@ public class UIManager : MonoBehaviour
     
     void Awake() => Instance = this;
     
-    public void UpdateScoreUI(int score) => scoreText.text = "점수: " + score;
-    public void UpdateKillUI(int kill) => killText.text = "허수아비: " + kill;
+    public void UpdateGoldUI(int money) => moneyText.text = "금전: " + money;
+    // public void UpdateScoreUI(int score) => scoreText.text = "점수: " + score;
+    // public void UpdateKillUI(int kill) => killText.text = "허수아비: " + kill;
 
     public void ShowWarning(Text warningText)
     {

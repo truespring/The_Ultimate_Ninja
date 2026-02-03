@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     private int _score;
     private int _starLevel = 1;
-    [SerializeField] private int starBaseCost = 100;
+    [SerializeField] private int starBaseCost = 10;
     [SerializeField] private float starCostMultiplier = 1.8f;
     public int starDamage = 1;
 
@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public bool isSpecialMode = false;
     public float specialDuration = 5f;
 
+    public int currentGold = 0;
 
 
 
@@ -33,9 +34,9 @@ public class GameManager : MonoBehaviour
     public void AddScore(int num)
     {
         _score += num;
-        UIManager.Instance.UpdateScoreUI(_score);
+        // UIManager.Instance.UpdateScoreUI(_score);
         
-        float progress = (float)_score / UpgradeManager.Instance.GetStarUpgradeCost(_starLevel, starBaseCost, starCostMultiplier);
+        float progress = (float)currentGold / UpgradeManager.Instance.GetStarUpgradeCost(_starLevel, starBaseCost, starCostMultiplier);
         UIManager.Instance.SetGauge(UIManager.Instance.starImage1, UIManager.Instance.starImage2, progress);
         
         AddSpecialGauge();
@@ -44,24 +45,30 @@ public class GameManager : MonoBehaviour
     public void UpgradeStar()
     {
         int cost = UpgradeManager.Instance.GetStarUpgradeCost(_starLevel, starBaseCost, starCostMultiplier);
-        if (_score < cost)
+        if (currentGold < cost)
         {
             UIManager.Instance.ShowWarning(UIManager.Instance.scoreWarningText);
             return;
         }
 
         starDamage++;
-        _score -= cost;
+        currentGold -= cost;
         _starLevel++;
         AddScore(0); 
+    }
+
+    public void AddGold(int amount)
+    {
+        currentGold += amount;
+        UIManager.Instance.UpdateGoldUI(currentGold);
     }
 
     public void AddKillCount()
     {
         _killCount++;
-        UIManager.Instance.UpdateKillUI(_killCount);
+        // UIManager.Instance.UpdateKillUI(_killCount);
 
-        float progress = (float)_killCount / scareCrowBaseCost;
+        float progress = (float)currentGold / scareCrowBaseCost;
         UIManager.Instance.SetGauge(UIManager.Instance.scareCrowImage1, UIManager.Instance.scareCrowImage2, progress);
     }
 

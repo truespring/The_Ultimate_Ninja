@@ -3,7 +3,9 @@ using UnityEngine;
 public class Scarecrow : MonoBehaviour
 {
     public int hp = 100;
+    public int goldReward = 1;
     private bool _isDead = false;
+    public GameObject goldCoinPrefab;
     
 
     public void MinusHp(int damage)
@@ -20,8 +22,16 @@ public class Scarecrow : MonoBehaviour
     void Die()
     {
         _isDead = true;
+        GameObject coinObj = Instantiate(goldCoinPrefab, transform.position, Quaternion.identity);
+        GoldCoin coinScript = coinObj.GetComponent<GoldCoin>();
+        
+        // 중요: 코인 스크립트의 변수에 직접 값을 할당해줍니다.
+        coinScript.goldAmount = goldReward; 
+        coinScript.JumpOut();
+        
         GameManager.Instance.AddKillCount();
         GameManager.Instance.spawner.OnScareCrowDeath();
+        
         Destroy(gameObject);
     }
 }
