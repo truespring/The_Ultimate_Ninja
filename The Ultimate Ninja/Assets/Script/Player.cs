@@ -1,18 +1,16 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Player : MonoBehaviour
 {
     [Header("Sprites")] private SpriteRenderer _spriteRenderer;
-    public Sprite idleSprite;
-    public Sprite attackSprite;
+    public Sprite[] playerSprites;
     public GameObject ninjaStarPrefab;
-    
+    private float frameDelay = 0.1f;
+
     void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _spriteRenderer.sprite = idleSprite;
     }
 
     // Update is called once per frame
@@ -20,21 +18,39 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            Attack();
+            if (GameManager.Instance.isSpecialMode)
+            {
+                StartCoroutine(BurstAttackRoutine());
+            }
+            else
+            {
+                Attack();
+            }
         }
     }
 
     void Attack()
     {
-        StopAllCoroutines();
+        StopCoroutine(ChangeSpriteRoutine());
         Instantiate(ninjaStarPrefab, transform.position, Quaternion.identity);
         StartCoroutine(ChangeSpriteRoutine());
     }
 
     IEnumerator ChangeSpriteRoutine()
     {
-        _spriteRenderer.sprite = attackSprite;
-        yield return new WaitForSeconds(0.1f);
-        _spriteRenderer.sprite = idleSprite;
+        _spriteRenderer.sprite = playerSprites[1];
+        yield return new WaitForSeconds(frameDelay);
+        _spriteRenderer.sprite = playerSprites[2];
+        yield return new WaitForSeconds(frameDelay);
+        _spriteRenderer.sprite = playerSprites[0];
+    }
+
+    IEnumerator BurstAttackRoutine()
+    {
+        for (int i = 0; i < GameManager.Instance.specialCount; i++)
+        {
+            Attack();
+            yield return new WaitForSeconds(GameManager.Instance.specialTime);
+        }
     }
 }

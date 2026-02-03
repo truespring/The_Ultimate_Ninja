@@ -18,7 +18,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int scareCrowBaseCost = 100;
     
     private int _specialGauge = 0;
-    [SerializeField] private int specialBaseCost = 500;
+    [SerializeField] public int specialBaseCost = 500;
+    
+    public float specialTime = 0.05f;
+    public int specialCount = 5;
+    public bool isSpecialMode = false;
+    public float specialDuration = 5f;
+
+
 
 
     void Awake() => Instance = this;
@@ -71,14 +78,27 @@ public class GameManager : MonoBehaviour
 
         if (progress >= 1f)
         {
-            UIManager.Instance.specialText.GetComponent<TMPColor>().OnTrigger();
+            UIManager.Instance.specialText.GetComponent<TMPColor>().OnActivate();
         }
     }
 
     public void UseSpecial()
     {
+        isSpecialMode = true;
+        var progress = (float)_specialGauge / specialBaseCost;
+
+        if (progress < 1f) return;
+        
         _specialGauge = 0;
         UIManager.Instance.SetSpecialGauge(_specialGauge);
+        UIManager.Instance.specialText.GetComponent<TMPColor>().StopTrigger();
+        
+        StartCoroutine(SpecialModeTimer());
     }
 
+    private IEnumerator SpecialModeTimer()
+    {
+        yield return new WaitForSeconds(specialDuration);
+        isSpecialMode = false;
+    }
 }

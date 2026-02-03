@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,7 @@ public class UIManager : MonoBehaviour
     public Text killText;
     public Text scoreWarningText;
     public Text killWarningText;
-    public Text specialText;
+    public TextMeshProUGUI specialText;
     
     [Header("Gauges")]
     public Image starImage1; public Image starImage2;

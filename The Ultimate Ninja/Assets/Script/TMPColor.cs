@@ -10,8 +10,10 @@ public class TMPColor : MonoBehaviour
     
     private void Awake() => _textMeshPro = GetComponent<TextMeshProUGUI>();
 
-    public void OnTrigger()
+    public void OnActivate()
     {
+        if (_textMeshPro == null) _textMeshPro = GetComponent<TextMeshProUGUI>();
+        
         if (isRunning) return;
         StartCoroutine("ColorLerpLoop");   
     }
