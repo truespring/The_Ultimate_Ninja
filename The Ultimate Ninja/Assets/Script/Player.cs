@@ -5,8 +5,8 @@ public class Player : MonoBehaviour
 {
     [Header("Sprites")] private SpriteRenderer _spriteRenderer;
     public Sprite[] playerSprites;
-    public GameObject ninjaStarPrefab;
-    private float frameDelay = 0.1f;
+    public GameObject[] ninjaStarPrefab;
+    private readonly float _frameDelay = 0.1f;
 
     void Start()
     {
@@ -16,6 +16,18 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (GameManager.Instance.isSpecialMode)
+            {
+                StartCoroutine(BurstAttackRoutine());
+            }
+            else
+            {
+                Attack();
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.A))
         {
             if (GameManager.Instance.isSpecialMode)
@@ -32,16 +44,17 @@ public class Player : MonoBehaviour
     void Attack()
     {
         StopCoroutine(ChangeSpriteRoutine());
-        Instantiate(ninjaStarPrefab, transform.position, Quaternion.identity);
+        Instantiate(ninjaStarPrefab[GameManager.Instance.GetCurrentStartIndex()], transform.position,
+            Quaternion.identity);
         StartCoroutine(ChangeSpriteRoutine());
     }
 
     IEnumerator ChangeSpriteRoutine()
     {
         _spriteRenderer.sprite = playerSprites[1];
-        yield return new WaitForSeconds(frameDelay);
+        yield return new WaitForSeconds(_frameDelay);
         _spriteRenderer.sprite = playerSprites[2];
-        yield return new WaitForSeconds(frameDelay);
+        yield return new WaitForSeconds(_frameDelay);
         _spriteRenderer.sprite = playerSprites[0];
     }
 

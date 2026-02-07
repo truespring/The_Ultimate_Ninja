@@ -19,7 +19,7 @@ public class NinjaStar : MonoBehaviour
     {
         if (collision.CompareTag("Scarecrow"))
         {
-            GameManager.Instance.AddScore(damage);
+            GameManager.Instance.AddScore();
             collision.GetComponent<Scarecrow>().MinusHp(damage);
             Destroy(gameObject);
         }

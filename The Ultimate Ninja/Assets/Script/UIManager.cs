@@ -21,10 +21,14 @@ public class UIManager : MonoBehaviour
     public Image specialGaugeImage;
     
     void Awake() => Instance = this;
-    
-    public void UpdateGoldUI(int money) => moneyText.text = "금전: " + money;
+
+    public void UpdateGoldUI(int money)
+    {
+        moneyText.text = "금전: " + NumberFomatter.ToAbbreviatedString(money);   
+    }
     // public void UpdateScoreUI(int score) => scoreText.text = "점수: " + score;
     // public void UpdateKillUI(int kill) => killText.text = "허수아비: " + kill;
+    public void UpdateCoinAmount(TextMeshProUGUI textMeshProUGUI, int amount) => textMeshProUGUI.text = "+ " + amount;
 
     public void ShowWarning(Text warningText)
     {

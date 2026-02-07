@@ -1,25 +1,27 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public Spawn spawner;
 
-    private int _score;
-    private int _starLevel = 1;
-    [SerializeField] private int starBaseCost = 10;
-    [SerializeField] private float starCostMultiplier = 1.8f;
+    public int starLevel = 1;
+    public int starBaseCost = 10;
+    public float starCostMultiplier = 1.8f;
     public int starDamage = 1;
 
-    private int _killCount = 0;
-    public int scareCrowLevel = 1;
-    [SerializeField] private int scareCrowBaseCost = 100;
-    
+    public int GetCurrentStartIndex() => starLevel - 1;
+
+    public int scarecrowLevel = 1;
+    public int scareCrowBaseCost = 100;
+
+    public int GetCurrentScarecrowHp() => 100 + ((scarecrowLevel - 1) * 50);
+    public int GetCurrentGoldReward() => 1 + ((scarecrowLevel - 1) * 2);
+
     private int _specialGauge = 0;
-    [SerializeField] public int specialBaseCost = 500;
-    
+    public int specialBaseCost = 500;
+
     public float specialTime = 0.05f;
     public int specialCount = 5;
     public bool isSpecialMode = false;
@@ -27,24 +29,20 @@ public class GameManager : MonoBehaviour
 
     public int currentGold = 0;
 
-
-
     void Awake() => Instance = this;
 
-    public void AddScore(int num)
+    public void AddScore()
     {
-        _score += num;
-        // UIManager.Instance.UpdateScoreUI(_score);
-        
-        float progress = (float)currentGold / UpgradeManager.Instance.GetStarUpgradeCost(_starLevel, starBaseCost, starCostMultiplier);
+        float progress = (float)currentGold /
+                         UpgradeManager.Instance.GetUpgradeCost(starLevel, starBaseCost, starCostMultiplier);
         UIManager.Instance.SetGauge(UIManager.Instance.starImage1, UIManager.Instance.starImage2, progress);
-        
+
         AddSpecialGauge();
     }
 
     public void UpgradeStar()
     {
-        int cost = UpgradeManager.Instance.GetStarUpgradeCost(_starLevel, starBaseCost, starCostMultiplier);
+        int cost = UpgradeManager.Instance.GetUpgradeCost(starLevel, starBaseCost, starCostMultiplier);
         if (currentGold < cost)
         {
             UIManager.Instance.ShowWarning(UIManager.Instance.scoreWarningText);
@@ -53,8 +51,8 @@ public class GameManager : MonoBehaviour
 
         starDamage++;
         currentGold -= cost;
-        _starLevel++;
-        AddScore(0); 
+        starLevel++;
+        AddScore();
     }
 
     public void AddGold(int amount)
@@ -65,16 +63,24 @@ public class GameManager : MonoBehaviour
 
     public void AddKillCount()
     {
-        _killCount++;
-        // UIManager.Instance.UpdateKillUI(_killCount);
-
         float progress = (float)currentGold / scareCrowBaseCost;
         UIManager.Instance.SetGauge(UIManager.Instance.scareCrowImage1, UIManager.Instance.scareCrowImage2, progress);
     }
 
     public void UpgradeScarecrow()
     {
-        scareCrowLevel++;
+        int cost = UpgradeManager.Instance.GetUpgradeCost(scarecrowLevel, scareCrowBaseCost, 1.4f);
+        if (currentGold < cost)
+        {
+            UIManager.Instance.ShowWarning(UIManager.Instance.killWarningText);
+            return;
+        }
+
+        scarecrowLevel++;
+        spawner.Destroy();
+        spawner.SpawnScarecrow();
+        currentGold -= scareCrowBaseCost;
+        AddKillCount();
     }
 
     private void AddSpecialGauge()
@@ -95,11 +101,11 @@ public class GameManager : MonoBehaviour
         var progress = (float)_specialGauge / specialBaseCost;
 
         if (progress < 1f) return;
-        
+
         _specialGauge = 0;
         UIManager.Instance.SetSpecialGauge(_specialGauge);
         UIManager.Instance.specialText.GetComponent<TMPColor>().StopTrigger();
-        
+
         StartCoroutine(SpecialModeTimer());
     }
 

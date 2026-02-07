@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3357929870307044026}
   m_Layer: 0
   m_Name: NinjaStar
-  m_TagString: Untagged
+  m_TagString: Star
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+  damage: 0
 --- !u!50 &4926005369675365830
 Rigidbody2D:
   serializedVersion: 5

@@ -6,32 +6,29 @@ public class Spawn : MonoBehaviour
     [SerializeField] private GameObject[] scarecrowPrefab;
     private GameObject _currentScarecrow;
     public float respawnDelay = 0.2f;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        SpawnScareCrow();
+        SpawnScarecrow();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
-    private void SpawnScareCrow()
+    public void SpawnScarecrow()
     {
         if (_currentScarecrow != null)
         {
             Destroy(_currentScarecrow);
         }
-        int index = GameManager.Instance.scareCrowLevel - 1;
+
+        int index = GameManager.Instance.scarecrowLevel - 1;
         index = Mathf.Clamp(index, 0, scarecrowPrefab.Length - 1);
-        
-        Instantiate(scarecrowPrefab[index], transform.position, Quaternion.identity);
+
+        GameObject go = Instantiate(scarecrowPrefab[index], transform.position, Quaternion.identity);
+        Scarecrow sc = go.GetComponent<Scarecrow>();
+        sc.hp = GameManager.Instance.GetCurrentScarecrowHp();
+        _currentScarecrow = go;
     }
 
-    public void OnScareCrowDeath()
+    public void OnScarecrowDeath()
     {
         StartCoroutine(RespawnRoutine());
     }
@@ -39,6 +36,11 @@ public class Spawn : MonoBehaviour
     private IEnumerator RespawnRoutine()
     {
         yield return new WaitForSeconds(respawnDelay);
-        SpawnScareCrow();
+        SpawnScarecrow();
+    }
+    
+    public void Destroy()
+    {
+        Destroy(_currentScarecrow);
     }
 }

@@ -200,4 +200,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   goldReward: 1
-  goldCoinPrefab: {fileID: 6704760392161289632, guid: 3b60cd43168ef4993b06329dc3049da2, type: 3}
+  goldCoinPrefab: {fileID: 2504407937088511133, guid: 4c0446303fff04df0bd3284ff077c289, type: 3}
