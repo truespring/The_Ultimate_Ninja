@@ -8,13 +8,14 @@ public class GameManager : MonoBehaviour
 
     public int starLevel = 1;
     public int starBaseCost = 10;
-    public float starCostMultiplier = 1.8f;
+    public float starCostMultiplier = 1.12f;
     public int starDamage = 1;
 
-    public int GetCurrentStartIndex() => starLevel - 1;
+    public int GetCurrentStartIndex(int maxIndex) => Mathf.Clamp(starLevel - 1, 0, maxIndex);
 
     public int scarecrowLevel = 1;
     public int scareCrowBaseCost = 100;
+    public float scareCrowCostMultiplier = 1.15f;
 
     public int GetCurrentScarecrowHp() => 100 + ((scarecrowLevel - 1) * 50);
     public int GetCurrentGoldReward() => 1 + ((scarecrowLevel - 1) * 2);
@@ -49,6 +50,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        // SoundManager.Instance.SoundUpgradeNinjaStar();
         starDamage++;
         currentGold -= cost;
         starLevel++;
@@ -69,13 +71,14 @@ public class GameManager : MonoBehaviour
 
     public void UpgradeScarecrow()
     {
-        int cost = UpgradeManager.Instance.GetUpgradeCost(scarecrowLevel, scareCrowBaseCost, 1.4f);
+        int cost = UpgradeManager.Instance.GetUpgradeCost(scarecrowLevel, scareCrowBaseCost, scareCrowCostMultiplier);
         if (currentGold < cost)
         {
             UIManager.Instance.ShowWarning(UIManager.Instance.killWarningText);
             return;
         }
 
+        // SoundManager.Instance.SoundUpgradeScarecrow();
         scarecrowLevel++;
         spawner.Destroy();
         spawner.SpawnScarecrow();
@@ -97,11 +100,11 @@ public class GameManager : MonoBehaviour
 
     public void UseSpecial()
     {
-        isSpecialMode = true;
         var progress = (float)_specialGauge / specialBaseCost;
 
         if (progress < 1f) return;
 
+        isSpecialMode = true;
         _specialGauge = 0;
         UIManager.Instance.SetSpecialGauge(_specialGauge);
         UIManager.Instance.specialText.GetComponent<TMPColor>().StopTrigger();

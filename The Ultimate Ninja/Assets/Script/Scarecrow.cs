@@ -21,6 +21,7 @@ public class Scarecrow : MonoBehaviour
     void Die()
     {
         _isDead = true;
+        SoundManager.Instance.SoundScarecrowDeath();
         GameObject coinObj = Instantiate(goldCoinPrefab, transform.position, Quaternion.identity);
         GoldCoin coinScript = coinObj.GetComponent<GoldCoin>();
         
@@ -30,7 +31,7 @@ public class Scarecrow : MonoBehaviour
         
         GameManager.Instance.AddKillCount();
         GameManager.Instance.spawner.OnScarecrowDeath();
-        
+
         Destroy(gameObject);
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
@@ -18,33 +19,37 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (GameManager.Instance.isSpecialMode)
+            if (EventSystem.current.IsPointerOverGameObject())
             {
-                StartCoroutine(BurstAttackRoutine());
+                return;
             }
-            else
-            {
-                Attack();
-            }
+
+            OnFire();
         }
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (GameManager.Instance.isSpecialMode)
-            {
-                StartCoroutine(BurstAttackRoutine());
-            }
-            else
-            {
-                Attack();
-            }
+            OnFire();
+        }
+    }
+
+    void OnFire()
+    {
+        // SoundManager.Instance.SoundShoot();
+        if (GameManager.Instance.isSpecialMode)
+        {
+            StartCoroutine(BurstAttackRoutine());
+        }
+        else
+        {
+            Attack();
         }
     }
 
     void Attack()
     {
         StopCoroutine(ChangeSpriteRoutine());
-        Instantiate(ninjaStarPrefab[GameManager.Instance.GetCurrentStartIndex()], transform.position,
+        Instantiate(ninjaStarPrefab[GameManager.Instance.GetCurrentStartIndex(ninjaStarPrefab.Length)], transform.position,
             Quaternion.identity);
         StartCoroutine(ChangeSpriteRoutine());
     }
