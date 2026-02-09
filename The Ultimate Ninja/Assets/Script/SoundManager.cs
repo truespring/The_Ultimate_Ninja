@@ -16,6 +16,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip soundScarecrowDeath;
     public AudioClip upgradeNinjaStar;
     public AudioClip upgradeScarecrow;
+    public AudioClip soundSpecial;
 
     public void SoundShoot()
     {
@@ -35,5 +36,10 @@ public class SoundManager : MonoBehaviour
     public void SoundUpgradeScarecrow()
     {
         audioSource.PlayOneShot(upgradeScarecrow);
+    }
+    
+    public void SoundSpecial()
+    {
+        audioSource.PlayOneShot(soundSpecial);
     }
 }
