@@ -1180,10 +1180,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2857ed17f1a5f4800a5a2fabfa262426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundShoot: {fileID: 0}
+  soundShoot: {fileID: 8300000, guid: 70f016fc726cd4289a3413bbf5987372, type: 3}
   soundScarecrowDeath: {fileID: 8300000, guid: 92fcb81cd62874abf9be7a4dfe5aa9d4, type: 3}
-  upgradeNinjaStar: {fileID: 0}
+  upgradeNinjaStar: {fileID: 8300000, guid: 18879f3a29ba74a30a63f5cfe7a918f6, type: 3}
   upgradeScarecrow: {fileID: 8300000, guid: b96b66cc8562a41b0882c65de3674cf7, type: 3}
+  soundSpecial: {fileID: 8300000, guid: 07d3ee533ce4a4370be2696369444d9b, type: 3}
 --- !u!82 &394313447
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1197,7 +1198,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.037
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2304,6 +2305,8 @@ MonoBehaviour:
   scarecrowPrefab:
   - {fileID: 8232590169449569897, guid: 9623d62447b6c43299096e470a96352c, type: 3}
   - {fileID: 6218431534883450321, guid: 2d71635bd0bc4454ca8d0c931ea1e5eb, type: 3}
+  - {fileID: 5992274961515088962, guid: 1c6341da2d1284a189c8c38482068a47, type: 3}
+  - {fileID: 1497711947789222225, guid: d5c7e0365a34141a7a90391bf72a9655, type: 3}
   respawnDelay: 0.2
 --- !u!4 &1501153204
 Transform:

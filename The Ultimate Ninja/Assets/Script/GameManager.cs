@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // SoundManager.Instance.SoundUpgradeNinjaStar();
+        SoundManager.Instance.SoundUpgradeNinjaStar();
         starDamage++;
         currentGold -= cost;
         starLevel++;
@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // SoundManager.Instance.SoundUpgradeScarecrow();
+        SoundManager.Instance.SoundUpgradeScarecrow();
         scarecrowLevel++;
         spawner.Destroy();
         spawner.SpawnScarecrow();
@@ -104,7 +104,7 @@ public class GameManager : MonoBehaviour
 
         if (progress < 1f) return;
 
-        // SoundManager.Instance.SoundSpecial();
+        SoundManager.Instance.SoundSpecial();
         isSpecialMode = true;
         _specialGauge = 0;
         UIManager.Instance.SetSpecialGauge(_specialGauge);

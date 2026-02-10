@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 
     void OnFire()
     {
-        // SoundManager.Instance.SoundShoot();
+        SoundManager.Instance.SoundShoot();
         if (GameManager.Instance.isSpecialMode)
         {
             StartCoroutine(BurstAttackRoutine());
