@@ -3,14 +3,28 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager Instance;
-    AudioSource audioSource;
 
-    private void Awake() => Instance = this;
+    private AudioSource _sfxSource;
+    private AudioSource _bgmSource;
 
-    void Start()
+    private void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            _sfxSource = GetComponent<AudioSource>();
+            _bgmSource = GetComponent<AudioSource>();
+            _bgmSource.loop = true;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
+
+    public AudioClip soundBGM;
 
     public AudioClip soundShoot;
     public AudioClip soundScarecrowDeath;
@@ -18,28 +32,40 @@ public class SoundManager : MonoBehaviour
     public AudioClip upgradeScarecrow;
     public AudioClip soundSpecial;
 
+    private void Start()
+    {
+        SoundBGM();
+    }
+
+    public void SoundBGM()
+    {
+        if (_bgmSource.clip == soundBGM) return;
+        _bgmSource.clip = soundBGM;
+        _bgmSource.Play();
+    }
+
     public void SoundShoot()
     {
-        audioSource.PlayOneShot(soundShoot);
+        _sfxSource.PlayOneShot(soundShoot);
     }
 
     public void SoundScarecrowDeath()
     {
-        audioSource.PlayOneShot(soundScarecrowDeath);
+        _sfxSource.PlayOneShot(soundScarecrowDeath);
     }
 
     public void SoundUpgradeNinjaStar()
     {
-        audioSource.PlayOneShot(upgradeNinjaStar);
+        _sfxSource.PlayOneShot(upgradeNinjaStar);
     }
 
     public void SoundUpgradeScarecrow()
     {
-        audioSource.PlayOneShot(upgradeScarecrow);
+        _sfxSource.PlayOneShot(upgradeScarecrow);
     }
-    
+
     public void SoundSpecial()
     {
-        audioSource.PlayOneShot(soundSpecial);
+        _sfxSource.PlayOneShot(soundSpecial);
     }
 }

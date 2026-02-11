@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 74219919efbfe4bb1b715e97bc7c4de1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3169621016488783557
+    second: Danga_credit_0
+  - first:
+      213: -5846769368625920335
+    second: Danga_credit_1
+  - first:
+      213: -4915379537627110512
+    second: Danga_credit_2
+  - first:
+      213: 1578037510034327474
+    second: Danga_credit_3
+  - first:
+      213: -8796857535101209533
+    second: Danga_credit_4
+  - first:
+      213: 1898323858868956468
+    second: Danga_credit_5
+  - first:
+      213: -2402998432362961198
+    second: Danga_credit_6
+  - first:
+      213: -9122599619202711048
+    second: Danga_credit_7
+  - first:
+      213: -1766723131564171810
+    second: Danga_credit_8
+  - first:
+      213: 7519273837276584086
+    second: Danga_credit_9
+  - first:
+      213: -4861694747561221729
+    second: Danga_credit_10
+  - first:
+      213: -1413716632082868069
+    second: Danga_credit_11
+  - first:
+      213: -4638137367191447559
+    second: Danga_credit_12
+  - first:
+      213: -7544570915117429521
+    second: Danga_credit_13
+  - first:
+      213: 2084757048999697864
+    second: Danga_credit_14
+  - first:
+      213: -4106404345077129505
+    second: Danga_credit_15
+  - first:
+      213: -1110794680999695190
+    second: Danga_credit_16
+  - first:
+      213: 2833308725785336648
+    second: Danga_credit_17
+  - first:
+      213: 8721472847259077664
+    second: Danga_credit_18
+  - first:
+      213: -2944440740489579844
+    second: Danga_credit_19
+  - first:
+      213: 2455225433044875139
+    second: Danga_credit_20
+  - first:
+      213: -4898593992139261491
+    second: Danga_credit_21
+  - first:
+      213: 4215973061094525595
+    second: Danga_credit_22
+  - first:
+      213: -7133880818970255313
+    second: Danga_credit_23
+  - first:
+      213: 885530474615401774
+    second: Danga_credit_24
+  - first:
+      213: 4995611479329048551
+    second: Danga_credit_25
+  - first:
+      213: 2379520974453184361
+    second: Danga_credit_26
+  - first:
+      213: -6127785798920082460
+    second: Danga_credit_27
+  - first:
+      213: 5410127840337089885
+    second: Danga_credit_28
+  - first:
+      213: -4614435886271374193
+    second: Danga_credit_29
+  - first:
+      213: -7539122898705463399
+    second: Danga_credit_30
+  - first:
+      213: 8038098289486706921
+    second: Danga_credit_31
+  - first:
+      213: -3246062814870684915
+    second: Danga_credit_32
+  - first:
+      213: -8313073860308679507
+    second: Danga_credit_33
+  - first:
+      213: 6091345292979073148
+    second: Danga_credit_34
+  - first:
+      213: -187066636375315483
+    second: Danga_credit_35
+  - first:
+      213: 8069427777643613971
+    second: Danga_credit_36
+  - first:
+      213: 2060429805336612772
+    second: Danga_credit_37
+  - first:
+      213: 694529539636360601
+    second: Danga_credit_38
+  - first:
+      213: -1219275303096225701
+    second: Danga_credit_39
+  - first:
+      213: 6015946613727918493
+    second: Danga_credit_40
+  - first:
+      213: -7555029317067448237
+    second: Danga_credit_41
+  - first:
+      213: -4298684485312233878
+    second: Danga_credit_42
+  - first:
+      213: -2548281485930894158
+    second: Danga_credit_43
+  - first:
+      213: 6488331508451336907
+    second: Danga_credit_44
+  - first:
+      213: -5839571295360176535
+    second: Danga_credit_45
+  - first:
+      213: -7901244836430235251
+    second: Danga_credit_46
+  - first:
+      213: 6105803493844513997
+    second: Danga_credit_47
+  - first:
+      213: -8357227194948688013
+    second: Danga_credit_48
+  - first:
+      213: 1478523865172344644
+    second: Danga_credit_49
+  - first:
+      213: 7529321748246820203
+    second: Danga_credit_50
+  - first:
+      213: -782215940935391185
+    second: Danga_credit_51
+  - first:
+      213: 7511800990212533429
+    second: Danga_credit_52
+  - first:
+      213: -8983951833435307208
+    second: Danga_credit_53
+  - first:
+      213: 3946310040805717539
+    second: Danga_credit_54
+  - first:
+      213: -4373843135261115534
+    second: Danga_credit_55
+  - first:
+      213: 7696210887517703319
+    second: Danga_credit_56
+  - first:
+      213: 5787523875125558982
+    second: Danga_credit_57
+  - first:
+      213: 98991748103530814
+    second: Danga_credit_58
+  - first:
+      213: 4276028738167466749
+    second: Danga_credit_59
+  - first:
+      213: -1477501037390605055
+    second: Danga_credit_60
+  - first:
+      213: -1505165142309291892
+    second: Danga_credit_61
+  - first:
+      213: 1382734010159206496
+    second: Danga_credit_62
+  - first:
+      213: 7510356013033436724
+    second: Danga_credit_63
+  - first:
+      213: 54617044104412598
+    second: Danga_credit_64
+  - first:
+      213: -1005652288322708416
+    second: Danga_credit_65
+  - first:
+      213: -7926450328473173822
+    second: Danga_credit_66
+  - first:
+      213: -6836644069135827528
+    second: Danga_credit_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Danga_credit_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 4079
+        width: 182
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce2d686581ccfb20800000000000000
+      internalID: 3169621016488783557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3989
+        width: 172
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6ca6b9c3a1cdea0800000000000000
+      internalID: -5846769368625920335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 4099
+        width: 212
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09323837a5019cbb0800000000000000
+      internalID: -4915379537627110512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_3
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3829
+        width: 312
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b786db21c056e510800000000000000
+      internalID: 1578037510034327474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_4
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 4309
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344f298fda84be580800000000000000
+      internalID: -8796857535101209533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_5
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 3979
+        width: 232
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d688ced73385a10800000000000000
+      internalID: 1898323858868956468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_6
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 4029
+        width: 122
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d66f2b48a5d6aed0800000000000000
+      internalID: -2402998432362961198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_7
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 3959
+        width: 372
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f10f4ddaf3066180800000000000000
+      internalID: -9122599619202711048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_8
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 4139
+        width: 242
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddd6ae1ca65b77e0800000000000000
+      internalID: -1766723131564171810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_9
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 3859
+        width: 302
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69852c757b3d95860800000000000000
+      internalID: 7519273837276584086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_10
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 4029
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f912b3da26ac78cb0800000000000000
+      internalID: -4861694747561221729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_11
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 3859
+        width: 412
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9893ab9638716ce0800000000000000
+      internalID: -1413716632082868069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_12
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 3819
+        width: 172
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7961173a602afb0800000000000000
+      internalID: -4638137367191447559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 3019
+        width: 232
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec8eadb9bc4c4790800000000000000
+      internalID: -7544570915117429521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2759
+        width: 72
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd5e949d7b8eec10800000000000000
+      internalID: 2084757048999697864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_15
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 2929
+        width: 252
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde9e8b310f1307c0800000000000000
+      internalID: -4106404345077129505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_16
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2839
+        width: 472
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacae947f1aa590f0800000000000000
+      internalID: -1110794680999695190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_17
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 3059
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b137b464fe15720800000000000000
+      internalID: 2833308725785336648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_18
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2869
+        width: 162
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c8713a855e80970800000000000000
+      internalID: 8721472847259077664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_19
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 2669
+        width: 402
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb23ee03fbe3327d0800000000000000
+      internalID: -2944440740489579844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_20
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 2679
+        width: 582
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387f424e586b21220800000000000000
+      internalID: 2455225433044875139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_21
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 2599
+        width: 212
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc93dafc7b2b40cb0800000000000000
+      internalID: -4898593992139261491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_22
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 2719
+        width: 202
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ac7217925228a30800000000000000
+      internalID: 4215973061094525595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_23
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2789
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f202e4b213d5ffc90800000000000000
+      internalID: -7133880818970255313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1649
+        width: 332
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2deb3166490a4c00800000000000000
+      internalID: 885530474615401774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_25
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1589
+        width: 202
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7854d2c2af35540800000000000000
+      internalID: 4995611479329048551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_26
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1899
+        width: 232
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9679fd118b1c50120800000000000000
+      internalID: 2379520974453184361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_27
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1739
+        width: 202
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6fa3484bb5faa0800000000000000
+      internalID: -6127785798920082460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_28
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 2009
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d555eb05b92a41b40800000000000000
+      internalID: 5410127840337089885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_29
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1709
+        width: 162
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cdaff720b36ffb0800000000000000
+      internalID: -4614435886271374193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_30
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1739
+        width: 92
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997c5a8eaa7af5790800000000000000
+      internalID: -7539122898705463399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_31
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1919
+        width: 252
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8b78e7ecf0d8f60800000000000000
+      internalID: 8038098289486706921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_32
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 1639
+        width: 232
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b3709711ba3f2d0800000000000000
+      internalID: -3246062814870684915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_33
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 1629
+        width: 132
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da447bc5e5702ac80800000000000000
+      internalID: -8313073860308679507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_34
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1749
+        width: 372
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70f348454ec88450800000000000000
+      internalID: 6091345292979073148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_35
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1599
+        width: 202
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eba585a2e7676df0800000000000000
+      internalID: -187066636375315483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_36
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1709
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f0e136fcd5cff60800000000000000
+      internalID: 8069427777643613971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_37
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1659
+        width: 322
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af47b7cdfd189c10800000000000000
+      internalID: 2060429805336612772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_38
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1609
+        width: 262
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9957a00cfe673a900800000000000000
+      internalID: 694529539636360601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_39
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1559
+        width: 202
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50fa836293441fe0800000000000000
+      internalID: -1219275303096225701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_40
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 1479
+        width: 192
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9977f2429fec7350800000000000000
+      internalID: 6015946613727918493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_41
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1409
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35068884dd4272790800000000000000
+      internalID: -7555029317067448237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_42
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1409
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e3b7b6c310854c0800000000000000
+      internalID: -4298684485312233878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_43
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1379
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc626b6d7fa2acd0800000000000000
+      internalID: -2548281485930894158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_44
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1369
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2673a512f2b0a50800000000000000
+      internalID: 6488331508451336907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_45
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1369
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e2d73a8dca5fea0800000000000000
+      internalID: -5839571295360176535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_46
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1359
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89bf211fa3295290800000000000000
+      internalID: -7901244836430235251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_47
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1349
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4f0fe7deb2cb450800000000000000
+      internalID: 6105803493844513997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_48
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 1349
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37769d9052a250c80800000000000000
+      internalID: -8357227194948688013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_49
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1359
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ff88f2f95c48410800000000000000
+      internalID: 1478523865172344644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_50
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 769
+        width: 212
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65ffdbec368d7860800000000000000
+      internalID: 7529321748246820203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_51
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 639
+        width: 72
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28e5eefeb20525f0800000000000000
+      internalID: -782215940935391185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_52
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 779
+        width: 232
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcab0d83374f3860800000000000000
+      internalID: 7511800990212533429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_53
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 839
+        width: 192
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8338ed01867925380800000000000000
+      internalID: -8983951833435307208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_54
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 659
+        width: 212
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32638cbd21c14c630800000000000000
+      internalID: 3946310040805717539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_55
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 579
+        width: 252
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bfa7397dcfc43c0800000000000000
+      internalID: -4373843135261115534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_56
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 849
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c8cf2a60f6eca60800000000000000
+      internalID: 7696210887517703319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_57
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 609
+        width: 162
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce73f10d4a615050800000000000000
+      internalID: 5787523875125558982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_58
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 519
+        width: 352
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39e76d6870bf5100800000000000000
+      internalID: 98991748103530814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_59
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 799
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa65d36b71875b30800000000000000
+      internalID: 4276028738167466749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_60
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 539
+        width: 282
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105df0772acde7be0800000000000000
+      internalID: -1477501037390605055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_61
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 879
+        width: 82
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88ba5c17449c1be0800000000000000
+      internalID: -1505165142309291892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_62
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 589
+        width: 132
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06014669145703310800000000000000
+      internalID: 1382734010159206496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_63
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 669
+        width: 192
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436b39590052a3860800000000000000
+      internalID: 7510356013033436724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_64
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 649
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd768889e902c000800000000000000
+      internalID: 54617044104412598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_65
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 499
+        width: 72
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c57fa62943b02f0800000000000000
+      internalID: -1005652288322708416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_66
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 449
+        width: 172
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c004912c679ff190800000000000000
+      internalID: -7926450328473173822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danga_credit_67
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 399
+        width: 152
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdb063f07c5f11a0800000000000000
+      internalID: -6836644069135827528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Danga_credit_0: 3169621016488783557
+      Danga_credit_1: -5846769368625920335
+      Danga_credit_10: -4861694747561221729
+      Danga_credit_11: -1413716632082868069
+      Danga_credit_12: -4638137367191447559
+      Danga_credit_13: -7544570915117429521
+      Danga_credit_14: 2084757048999697864
+      Danga_credit_15: -4106404345077129505
+      Danga_credit_16: -1110794680999695190
+      Danga_credit_17: 2833308725785336648
+      Danga_credit_18: 8721472847259077664
+      Danga_credit_19: -2944440740489579844
+      Danga_credit_2: -4915379537627110512
+      Danga_credit_20: 2455225433044875139
+      Danga_credit_21: -4898593992139261491
+      Danga_credit_22: 4215973061094525595
+      Danga_credit_23: -7133880818970255313
+      Danga_credit_24: 885530474615401774
+      Danga_credit_25: 4995611479329048551
+      Danga_credit_26: 2379520974453184361
+      Danga_credit_27: -6127785798920082460
+      Danga_credit_28: 5410127840337089885
+      Danga_credit_29: -4614435886271374193
+      Danga_credit_3: 1578037510034327474
+      Danga_credit_30: -7539122898705463399
+      Danga_credit_31: 8038098289486706921
+      Danga_credit_32: -3246062814870684915
+      Danga_credit_33: -8313073860308679507
+      Danga_credit_34: 6091345292979073148
+      Danga_credit_35: -187066636375315483
+      Danga_credit_36: 8069427777643613971
+      Danga_credit_37: 2060429805336612772
+      Danga_credit_38: 694529539636360601
+      Danga_credit_39: -1219275303096225701
+      Danga_credit_4: -8796857535101209533
+      Danga_credit_40: 6015946613727918493
+      Danga_credit_41: -7555029317067448237
+      Danga_credit_42: -4298684485312233878
+      Danga_credit_43: -2548281485930894158
+      Danga_credit_44: 6488331508451336907
+      Danga_credit_45: -5839571295360176535
+      Danga_credit_46: -7901244836430235251
+      Danga_credit_47: 6105803493844513997
+      Danga_credit_48: -8357227194948688013
+      Danga_credit_49: 1478523865172344644
+      Danga_credit_5: 1898323858868956468
+      Danga_credit_50: 7529321748246820203
+      Danga_credit_51: -782215940935391185
+      Danga_credit_52: 7511800990212533429
+      Danga_credit_53: -8983951833435307208
+      Danga_credit_54: 3946310040805717539
+      Danga_credit_55: -4373843135261115534
+      Danga_credit_56: 7696210887517703319
+      Danga_credit_57: 5787523875125558982
+      Danga_credit_58: 98991748103530814
+      Danga_credit_59: 4276028738167466749
+      Danga_credit_6: -2402998432362961198
+      Danga_credit_60: -1477501037390605055
+      Danga_credit_61: -1505165142309291892
+      Danga_credit_62: 1382734010159206496
+      Danga_credit_63: 7510356013033436724
+      Danga_credit_64: 54617044104412598
+      Danga_credit_65: -1005652288322708416
+      Danga_credit_66: -7926450328473173822
+      Danga_credit_67: -6836644069135827528
+      Danga_credit_7: -9122599619202711048
+      Danga_credit_8: -1766723131564171810
+      Danga_credit_9: 7519273837276584086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

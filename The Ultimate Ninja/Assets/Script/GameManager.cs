@@ -100,6 +100,7 @@ public class GameManager : MonoBehaviour
 
     public void UseSpecial()
     {
+        if (isSpecialMode) return;
         var progress = (float)_specialGauge / specialBaseCost;
 
         if (progress < 1f) return;
